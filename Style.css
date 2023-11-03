@@ -21,7 +21,7 @@
     {
         width: 100%;
         height: 100vh;
-        background-image: url();
+        background-image: url(Logo1.png);
         background-size: cover;
         background-position: center;
     }
@@ -343,8 +343,8 @@ nav .fas{
         position: fixed;
         top: 0;
         right: -200px;
-        width: 200px;
-        height: 100vh;
+        width: 150px;
+        height: 40vh;
         padding-top: 50px;
         z-index: 2;
         transition: right 0.5s;
