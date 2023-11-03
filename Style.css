@@ -23,7 +23,7 @@
         height: 100vh;
         background-image: url(Logo1.png);
         background-size: cover;
-        background-position: center;
+        background-position:center;
     }
     .container{
 
@@ -323,8 +323,15 @@ form .btn2{
 nav .fas{
     display: none;
 }
+.hider {
+    display: none !important;
+}
 @media only screen and (max-width: 600px){
-     #header{
+    .hider {
+        display: block !important;
+    }
+    
+    #header{
         background-image: url(Logo1.png);
      }
      .header-text{
